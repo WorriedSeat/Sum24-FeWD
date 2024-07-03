@@ -1,21 +1,50 @@
-{
-    "compilerOptions": {
-      "target": "es5",
-      "module": "esnext",
-      "jsx": "react",
-      "sourceMap": true,
-      "outDir": "dist",
-      "strict": true,
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "noEmit": true,
-      "allowImportingTsExtensions": true
-    },
-    "scripts": {
-    "build": "./src/index.tsx"
-    }
-  }
+// {
+//     "compilerOptions": {
+//       "target": "es5",
+//       "module": "esnext",
+//       "jsx": "react",
+//       "sourceMap": true,
+//       "outDir": "dist",
+//       "strict": true,
+//       "moduleResolution": "node",
+//       "allowSyntheticDefaultImports": true,
+//       "esModuleInterop": true,
+//       "skipLibCheck": true,
+//       "forceConsistentCasingInFileNames": true,
+//       "noEmit": true,
+//       "allowImportingTsExtensions": true
+//     },
+//     // "scripts": {
+//     // "build": ".Sum24-FeWD/src/index.tsx"
+//     // }
+//   }
   
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
