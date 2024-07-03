@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Sum24-FeWD/static/js/main.bd8ecb6a.js",
+    "main.js": "/Sum24-FeWD/static/js/main.e0e46893.js",
     "index.html": "/Sum24-FeWD/index.html",
-    "main.bd8ecb6a.js.map": "/Sum24-FeWD/static/js/main.bd8ecb6a.js.map"
+    "main.e0e46893.js.map": "/Sum24-FeWD/static/js/main.e0e46893.js.map"
   },
   "entrypoints": [
-    "static/js/main.bd8ecb6a.js"
+    "static/js/main.e0e46893.js"
   ]
 }
