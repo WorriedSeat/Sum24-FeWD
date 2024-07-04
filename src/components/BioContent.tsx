@@ -6,7 +6,7 @@ class BioContent extends React.Component{
     render(){
         return (
             <div>
-                <img src="/Images/pics/aman.png" alt="aman" id="man"></img>
+                <img src="/Sum24-FeWD/Images/pics/aman.png" alt="aman" id="man"></img>
                 <h3 id="infoTitle">A bit about me</h3>
                 <div id="mainInfo">
                     <p className="info">
@@ -31,7 +31,7 @@ class BioContent extends React.Component{
 
                 <div className="popupBox">
                     <div id="ComicHead">
-                        <img src="Images/pics/headThoughts.png" alt="headThoughts" id="HeadPic"></img>
+                        <img src="/Sum24-FeWD/Images/pics/headThoughts.png" alt="headThoughts" id="HeadPic"></img>
                     </div>
                     <button id="openPopupBtn" onClick={openPopup}></button>
                     <div className="myPopup">

@@ -5,7 +5,7 @@ class PhotosContent extends React.Component{
         return (
             <>
                 <div className="images">
-                    <img src="/Images/pics/Photos.png" alt="Photos" id="Photos"></img>
+                    <img src="/Sum24-FeWD/Images/pics/Photos.png" alt="Photos" id="Photos"></img>
                 </div>
             </>
         );

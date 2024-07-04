@@ -1,4 +1,4 @@
-import {BrowserRouter} from 'react-router-dom'
+import {HashRouter} from 'react-router-dom'
 import React from 'react'
 
 import RouterHeaderImage from './RouterHeaderImage.tsx';
@@ -13,16 +13,16 @@ const header = createRoot(elementHeader!)
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <RouterComponent />
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>        
 )
 
 header.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <RouterHeaderImage />
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>        
 )

@@ -5,14 +5,16 @@ import BioContent from './components/BioContent.tsx';
 import PhotosContent from './components/PhotosContent.tsx';
 import PortfolioContent from './components/PortfolioContent.tsx'
 
+const BASE_PATH: string = '/Sum24-FeWD'
+
 class RouterComponent extends React.Component{
   render(){
     return (
         <>
             <Routes>
-                <Route path = "/" element={<BioContent />} />
-                <Route path = "/photos" element={<PhotosContent />} />
-                <Route path = "/portfolio" element={<PortfolioContent />} />
+                <Route path = {BASE_PATH} element={<BioContent />} />
+                <Route path = "./Sum23-FeWD/photos" element={<PhotosContent />} />
+                <Route path = "./Sum24-FeWD/portfolio" element={<PortfolioContent />} />
             </Routes>
         </>
     )
