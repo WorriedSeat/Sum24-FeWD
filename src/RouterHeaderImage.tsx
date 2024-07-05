@@ -9,9 +9,9 @@ class RouterHeaderImage extends React.Component{
     return (
         <>
             <Routes>
-                <Route path = "/" element={<BigHeaderImage />} />
-                <Route path = "/photos" element={<SmallHeaderImage />} />
-                <Route path = "/portfolio" element={<SmallHeaderImage />} />
+                <Route path = "./" element={<BigHeaderImage />} />
+                <Route path = "./photos" element={<SmallHeaderImage />} />
+                <Route path = "./portfolio" element={<SmallHeaderImage />} />
             </Routes>
         </>
     )
