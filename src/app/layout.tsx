@@ -38,13 +38,13 @@ export default function RootLayout({children} : LayoutProps){
         <footer>
             <div id="links">
                 <div className="link" id="tg">
-                    <Link href="https://t.me/Worried_Seat"><img src='../Images/logos/telegram-logo-black-and-white.png' className="footerImage" alt="tg"></img></Link>
+                    <Link href="https://t.me/Worried_Seat"><img src='./Images/logos/telegram-logo-black-and-white.png' className="footerImage" alt="tg"></img></Link>
                 </div>
                 <div className="link" id="github">
-                    <Link href="https://github.com/WorriedSeat"><img src="../Images/logos/github-mark.png" className="footerImage" alt="git"></img></Link>
+                    <Link href="https://github.com/WorriedSeat"><img src="./Images/logos/github-mark.png" className="footerImage" alt="git"></img></Link>
                 </div>
                 <div className="link" id="email">
-                    <Link href= "mailto:vanish_for.white@mail.ru"><img src="../Images/logos/email-logo.png" className="footerImage" alt="emails"></img></Link>
+                    <Link href= "mailto:vanish_for.white@mail.ru"><img src="./Images/logos/email-logo.png" className="footerImage" alt="emails"></img></Link>
                 </div>
             </div>
         </footer>
